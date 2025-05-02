@@ -1,0 +1,397 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    background-color: black;
+    color: white;
+}
+.container-1 .first
+{
+    word-spacing: 8px;
+}
+.container-1 .first-1
+{
+    letter-spacing: 13px;
+}
+.container-2 
+{
+    width: 100%;
+}
+.container-2 .second
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: white;
+}
+.container-2 .second  .second-1
+{
+    font-size: 50px;
+    color: green;
+}
+.container-2 .second .red
+{
+    display: flex;
+    padding-top: 16px;
+    font-size: 20PX; 
+}
+.container-2 .second .red-1
+{
+    padding: 0 50px;
+}
+.container-2 .second .red-1:hover
+{
+    color: green;
+}
+.container-2 .second .red-2
+{
+    font-size: 20px;
+    padding-top: 16px;
+    letter-spacing: 10px;
+}
+.container-2 .second .icon
+{
+    /* color: gray; */
+    display: none;
+}
+.container-2 .section
+{
+     width: 100%;
+     padding: 100px 0;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     flex-wrap: wrap;
+     background-color: rgba(0, 0, 0 ,0.1);
+
+}
+.container-2 .section .section3
+{
+     /* border: 1px solid; */
+     padding-top: 60px;
+}
+.container-2 .section .section3 .on 
+{
+    display: flex;
+    color: green;
+}
+.container-2 .section .section3 .left-1
+{
+    font-size: 40px;
+
+}
+.container-2 .section .section3 .left1
+{
+    font-size: 30px;
+    font-family: "Bahiana", sans-serif;
+    padding-top: 8px;
+    margin-left: 5px;
+    letter-spacing: 6px;
+}
+.container-2 .section .section3 .left-2
+{
+    font-size: 30px;
+}
+.container-2 .section .section3 .left-3
+{
+    font-size: 20px;
+}
+.container-2 .section .section4
+{
+    
+}
+@media(max-width:500px)
+{
+    .container-1
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+    .container-2
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+
+}
+@media(max-width:992px)
+{
+    .container-2 .red .red-1
+    {
+        display: none;
+    }
+    .container-2 .red-2
+    {
+        display: none;
+    }
+    .container-2 .second .icon
+    {
+        display: block;
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .container-3 
+    {
+        justify-content: ;
+    }
+}
+@media(max-width:1100px)
+{
+    .container-1
+    {
+        display: none;
+    }
+    .container-1 .section .section3
+    {
+        justify-content: center;
+        padding: 50px;
+    }
+}
+.container-3
+{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container-3 .month
+{
+    text-align: center;
+    font-size: 20px;
+}
+.container-3 .month .one
+{
+    padding-top: 50px;
+}
+.container-3 .month .two
+{
+    padding-top: 15px;
+}
+.container-3 .parent
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 70px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container-3 .parent .nav
+{
+    width: 25%;
+    text-align: center;
+}
+.container-3 .parent .img
+{
+    /* border: 1px solid; */
+    border-radius: 690px;
+    width: 100%;
+}
+.container-3 .parent .btn
+{
+    padding: 10px 20px;
+    background-color: rgb(147, 241, 147);
+    border: none;
+    border-radius: 8px;
+}
+@media(max-width:992px)
+{
+    .container-3 .parent .nav
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.container-4 
+{
+    width: 100%;
+    background-color: rgba(128, 128, 128,0.3);
+    flex-wrap: wrap;
+}
+.container-4 .four
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.container-4 .four .eu
+{
+    padding-top: 15px;
+}
+.container-4 .grend-parent
+{
+    padding: 40px 40px;
+}
+.container-4 .grend-parent .parthi
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-4 .grend-parent .parthi .box
+{
+    width: 30%;
+    background-color: white;
+}
+.container-4 .grend-parent .parthi .child .img1
+{
+    width: 100%;
+}
+.container-4 .grend-parent .parthi .child  .stars
+{
+    display: flex;
+}
+.container-4 .grend-parent .parthi .child  .rs
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.container-4 .grend-parent .parthi .child .rs .star1
+{
+    background-color: yellow;
+}
+.container-4 .grend-parent .parthi .pad
+{
+    padding: 20px;
+}
+.container-4 .grend-parent .parthi .re
+{
+    color: rgba(0, 0, 0 ,0.4);
+}
+.container-4 .grend-parent .parthi .gym
+{
+    font-size: 30px;
+}
+@media(max-width:892px)
+{
+    .container-4 .grend-parent .parthi .box
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.container-5 
+{
+    width: 100%;
+    background-color:   rgb(32, 32, 53);
+    color: whitesmoke;
+}
+.container-5 .five
+{
+  align-items: center;
+}
+.container-5 .five .hr1
+{
+    color: rgba(172, 146, 146, 0.3);
+    border-bottom: 1px solid;
+}
+.container-5  .hr2
+{
+    border-bottom: 1px solid;
+    color: rgba(172, 146, 146, 0.3);
+}
+.container-5 .five  .sevan
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.container-5 .five  .sevan .five1 .para 
+{
+    display: flex ;
+}
+.container-5 .five  .sevan .five1 .para .para1:hover
+{
+    color: green;
+}
+.container-5 .five .six .sevan .five2 .name:hover
+{
+    color: green;
+}
+.container-5 .five .six .sevan .five3 .name:hover
+{
+    color: green;
+}
+.container-5 .five .five1 .sparthi
+{
+    color: rgb(113, 165, 113);
+    font-size: 30px;
+}
+.container-5 .center .five4 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    font-size: 23px;
+    flex-wrap: wrap;
+}
+.container-5 .center .five4 .icon4
+{
+    letter-spacing: 20px;
+}
+.container-5 .center .five4 .inbut
+{
+    padding: 13px 10px;
+    padding-right: 60px;
+    background-color:   rgb(32, 32, 53);
+}
+.container-5 .center .five4 .inbut1
+{
+    border: 1px solid rgba(148, 139, 139, 0.1);
+}
+.container-5 .center .five4 .btn5
+{
+    padding: 13px 40px;
+    background-color: rgb(180, 236, 180);
+    color: white;
+    border: none;
+}
+@media(max-width:992px)
+{
+    .container-5 .five .sevan
+    {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+    }
+    .container-5 .center .five4 .icon4
+    {
+        display: flex;
+    }
+    .container-5 .center .inbut1 
+    {
+        display: flex;
+        justify-content: center;
+       
+    }
+    .container-5 .center
+    {
+        justify-content: start;
+        padding-left: 10px;
+    }
+    
+}
+.container-6
+{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(7, 6, 6, 0.918);
+    color: white;
+    padding: 30px 30px;
+}
+
+
+
+
+
+
+
